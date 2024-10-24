@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visuel 3D Armoire Logistalli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 400px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .payment-form {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        input[type="text"], input[type="number"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Visuel 3D Armoire Logistalli</h1>
+        <p>Marine, votre visuel 3D est prêt.</p>
+        <p>Pour le débloquer, veuillez payer la somme de 5 euros.</p>
+        
+        <div class="payment-form">
+            <input type="text" placeholder="Numéro de carte" required>
+            <input type="text" placeholder="Nom sur la carte" required>
+            <input type="number" placeholder="Date d'expiration (MM/AA)" required>
+            <input type="number" placeholder="Cryptogramme" required>
+            <button onclick="alert('Merci pour votre paiement de 5€ ! Votre visuel sera envoyé par email.');">Payer</button>
+        </div>
+    </div>
+</body>
+</html>
